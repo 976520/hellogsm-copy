@@ -224,8 +224,6 @@ function catch2023Click(index){
     index = 3;
     selectedGraph(3);
     lastClickTime = currentTime;
-    
-    
 }
 
 container2020.addEventListener('click', catch2020Click);
