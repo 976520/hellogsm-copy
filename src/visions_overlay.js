@@ -17,20 +17,20 @@ window.addEventListener('wheel', down);
 
 
 function up(event) {
-    var clientY = event.clientY;
-    var containerHeight = upCover.parentElement.clientHeight;
-    var maxHeight = 700;
+    let clientY = event.clientY;
+    let containerHeight = upCover.parentElement.clientHeight;
+    let maxHeight = 700;
 
-    var height = (clientY - upCover.parentElement.getBoundingClientRect().top) / containerHeight * maxHeight;
+    let height = (clientY - upCover.parentElement.getBoundingClientRect().top) / containerHeight * maxHeight;
     upCover.style.height = height + 'px';
 }
 
 function down(event) {
-    var clientY = event.clientY;
-    var containerHeight = container.clientHeight;
-    var maxHeight = 700;
+    let clientY = event.clientY;
+    let containerHeight = container.clientHeight;
+    let maxHeight = 700;
 
-    var height = maxHeight - ((clientY - container.getBoundingClientRect().top) / containerHeight * maxHeight);
+    let height = maxHeight - ((clientY - container.getBoundingClientRect().top) / containerHeight * maxHeight);
 
     downCover.style.height = height + 'px';
     downCover.style.top = 700 - height + 'px';
