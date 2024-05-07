@@ -35,4 +35,3 @@ function down(event) {
     downCover.style.height = height + 'px';
     downCover.style.top = 700 - height + 'px';
 }
-

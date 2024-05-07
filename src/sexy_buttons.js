@@ -1,46 +1,56 @@
-const sexyButtonContainer = document.getElementById('sexy-buttons');
-
-const firstButton = document.getElementById('first-button');
-const secondButton = document.getElementById('second-button');
-const thirdButton = document.getElementById('third-button');
-const fourthButton = document.getElementById('fourth-button');
-const fifthButton = document.getElementById('fifth-button');
-
-function chunChunHeeGamSo(sexyButton){
-    sexyButton.style.opacity = 0.6;
+var sexyButtonContainer = document.getElementById('sexy-buttons');
+var firstButton = document.getElementById('first-button');
+var secondButton = document.getElementById('second-button');
+var thirdButton = document.getElementById('third-button');
+var fourthButton = document.getElementById('fourth-button');
+var fifthButton = document.getElementById('fifth-button');
+function chunChunHeeGamSo(sexyButton) {
+    if (sexyButton) {
+        sexyButton.style.opacity = '0.6';
+    }
 }
-
-function bbaLuGaeJungGa(sexyButton){
-    sexyButton.style.opacity = 1;
+function bbaLuGaeJungGa(sexyButton) {
+    if (sexyButton) {
+        sexyButton.style.opacity = '1';
+    }
 }
-
 function catchMouseOver(event) {
-    if(event.target.id == "first-button") {
+    var target = event.target;
+    if (target.id === 'first-button') {
         chunChunHeeGamSo(firstButton);
-    } else if (event.target.id == "second-button") {
+    }
+    else if (target.id === 'second-button') {
         chunChunHeeGamSo(secondButton);
-    } else if (event.target.id == "third-button") {
+    }
+    else if (target.id === 'third-button') {
         chunChunHeeGamSo(thirdButton);
-    } else if (event.target.id == "fourth-button") {
+    }
+    else if (target.id === 'fourth-button') {
         chunChunHeeGamSo(fourthButton);
-    } else if (event.target.id == "fifth-button") {
+    }
+    else if (target.id === 'fifth-button') {
         chunChunHeeGamSo(fifthButton);
     }
 }
-
 function catchMouseOut(event) {
-    if(event.target.id == "first-button") {
+    var target = event.target;
+    if (target.id === 'first-button') {
         bbaLuGaeJungGa(firstButton);
-    } else if (event.target.id == "second-button") {
+    }
+    else if (target.id === 'second-button') {
         bbaLuGaeJungGa(secondButton);
-    } else if (event.target.id == "third-button") {
+    }
+    else if (target.id === 'third-button') {
         bbaLuGaeJungGa(thirdButton);
-    } else if (event.target.id == "fourth-button") {
+    }
+    else if (target.id === 'fourth-button') {
         bbaLuGaeJungGa(fourthButton);
-    } else if (event.target.id == "fifth-button") {
+    }
+    else if (target.id === 'fifth-button') {
         bbaLuGaeJungGa(fifthButton);
     }
 }
-
-sexyButtonContainer.addEventListener('mouseover', catchMouseOver);
-sexyButtonContainer.addEventListener('mouseout', catchMouseOut);
+if (sexyButtonContainer) {
+    sexyButtonContainer.addEventListener('mouseover', catchMouseOver);
+    sexyButtonContainer.addEventListener('mouseout', catchMouseOut);
+}
