@@ -1,33 +1,37 @@
-const navDot = document.getElementById('nav-dot');
-
-const home = document.getElementById('home');
-const school = document.getElementById('school');
-const faq = document.getElementById('faq');
-const about = document.getElementById('about');
-
-function mouseLeave() {
-    navDot.style.transform = `translateX(0px)`;
+var navDotElement = document.getElementById('nav-dot');
+var homeElement = document.getElementById('home');
+var schoolElement = document.getElementById('school');
+var faqElement = document.getElementById('faq');
+var aboutElement = document.getElementById('about');
+function catchMouseLeave() {
+    if (navDotElement) {
+        navDotElement.style.transform = 'translateX(0px)';
+    }
 }
-
-function homeMouseOver() {
-    navDot.style.transform = `translateX(-379px)`;
+function catchHomeMouseOver() {
+    if (navDotElement) {
+        navDotElement.style.transform = 'translateX(-379px)';
+    }
 }
-
-function schoolMouseOver() {
-    navDot.style.transform = `translateX(-267px)`;
+function catchSchoolMouseOver() {
+    if (navDotElement) {
+        navDotElement.style.transform = 'translateX(-267px)';
+    }
 }
-
-function faqMouseOver() {
-    navDot.style.transform = `translateX(-130px)`;
+function catchFaqMouseOver() {
+    if (navDotElement) {
+        navDotElement.style.transform = 'translateX(-130px)';
+    }
 }
-
-
-
-home.addEventListener('mouseover', homeMouseOver);
-home.addEventListener('mouseleave', mouseLeave);
-
-school.addEventListener('mouseover', schoolMouseOver);
-school.addEventListener('mouseleave', mouseLeave);
-
-faq.addEventListener('mouseover', faqMouseOver); // mouse
-faq.addEventListener('mouseleave', mouseLeave);
+if (homeElement) {
+    homeElement.addEventListener('mouseover', catchHomeMouseOver);
+    homeElement.addEventListener('mouseleave', catchMouseLeave);
+}
+if (schoolElement) {
+    schoolElement.addEventListener('mouseover', catchSchoolMouseOver);
+    schoolElement.addEventListener('mouseleave', catchMouseLeave);
+}
+if (faqElement) {
+    faqElement.addEventListener('mouseover', catchFaqMouseOver);
+    faqElement.addEventListener('mouseleave', catchMouseLeave);
+}

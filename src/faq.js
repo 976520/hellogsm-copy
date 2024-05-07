@@ -1,33 +1,31 @@
-const navDot = document.getElementById('nav-dot');
-
-const home = document.getElementById('home');
-const school = document.getElementById('school');
-const faq = document.getElementById('faq');
-const about = document.getElementById('about');
-
+var navDotElement = document.getElementById("nav-dot");
+var homeElement = document.getElementById("home");
+var schoolElement = document.getElementById("school");
+var faqElement = document.getElementById("faq");
+var aboutElement = document.getElementById("about");
 function mouseLeave() {
-    navDot.style.transform = `translateX(0px)`;
+    if (navDotElement) {
+        navDotElement.style.transform = "translateX(0px)";
+    }
 }
-
 function homeMouseOver() {
-    navDot.style.transform = `translateX(-250px)`;
+    if (navDotElement) {
+        navDotElement.style.transform = "translateX(-250px)";
+    }
 }
-
 function schoolMouseOver() {
-    navDot.style.transform = `translateX(-137px)`;
+    if (navDotElement) {
+        navDotElement.style.transform = "translateX(-137px)";
+    }
 }
-
 function aboutMouseOver() {
-    navDot.style.transform = `translateX(130px)`;
+    if (navDotElement) {
+        navDotElement.style.transform = "translateX(130px)";
+    }
 }
-
-
-
-home.addEventListener('mouseover', homeMouseOver);
-home.addEventListener('mouseleave', mouseLeave);
-
-school.addEventListener('mouseover', schoolMouseOver);
-school.addEventListener('mouseleave', mouseLeave);
-
-about.addEventListener('mouseover', aboutMouseOver);
-about.addEventListener('mouseleave', mouseLeave);
+homeElement.addEventListener("mouseover", homeMouseOver);
+homeElement.addEventListener("mouseleave", mouseLeave);
+schoolElement.addEventListener("mouseover", schoolMouseOver);
+schoolElement.addEventListener("mouseleave", mouseLeave);
+aboutElement.addEventListener("mouseover", aboutMouseOver);
+aboutElement.addEventListener("mouseleave", mouseLeave);
