@@ -1,13 +1,8 @@
-const logo = document.getElementById('the-moment-logo');
+const logo = document.getElementById("the-moment-logo");
 
+function catchMouseOver() {}
 
-function catchMouseOver(){
+function catchMouseOut() {}
 
-}
-
-function catchMouseOut(){
-    
-}
-
-logo.addEventListener('mouseover', catchMouseOver);
-logo.addEventListener('mouseout', catchMouseOut);
+logo.addEventListener("mouseover", catchMouseOver);
+logo.addEventListener("mouseout", catchMouseOut);
