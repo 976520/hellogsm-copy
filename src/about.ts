@@ -2,7 +2,6 @@ const navDotElement = document.getElementById('nav-dot');
 const homeElement = document.getElementById('home');
 const schoolElement = document.getElementById('school');
 const faqElement = document.getElementById('faq');
-const aboutElement = document.getElementById('about');
 
 function catchMouseLeave() {
     if (navDotElement) {
@@ -42,3 +41,5 @@ if (faqElement) {
     faqElement.addEventListener('mouseover', catchFaqMouseOver);
     faqElement.addEventListener('mouseleave', catchMouseLeave);
 }
+
+export {}

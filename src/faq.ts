@@ -43,3 +43,5 @@ if (aboutElement) {
     aboutElement.addEventListener("mouseover", aboutMouseOver);
     aboutElement.addEventListener("mouseleave", mouseLeave);
 }
+
+export {}
