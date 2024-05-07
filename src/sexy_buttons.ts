@@ -6,13 +6,13 @@ const thirdButton: HTMLElement | null = document.getElementById('third-button');
 const fourthButton: HTMLElement | null = document.getElementById('fourth-button');
 const fifthButton: HTMLElement | null = document.getElementById('fifth-button');
 
-function chunChunHeeGamSo(sexyButton: HTMLElement | null): void {
+function no(sexyButton: HTMLElement | null): void {
     if (sexyButton) {
         sexyButton.style.opacity = '0.6';
     }
 }
 
-function bbaLuGaeJungGa(sexyButton: HTMLElement | null): void {
+function yes(sexyButton: HTMLElement | null): void {
     if (sexyButton) {
         sexyButton.style.opacity = '1';
     }
@@ -21,30 +21,30 @@ function bbaLuGaeJungGa(sexyButton: HTMLElement | null): void {
 function catchMouseOver(event: MouseEvent): void {
     const target = event.target as HTMLElement;
     if (target.id === 'first-button') {
-        chunChunHeeGamSo(firstButton);
+        no(firstButton);
     } else if (target.id === 'second-button') {
-        chunChunHeeGamSo(secondButton);
+        no(secondButton);
     } else if (target.id === 'third-button') {
-        chunChunHeeGamSo(thirdButton);
+        no(thirdButton);
     } else if (target.id === 'fourth-button') {
-        chunChunHeeGamSo(fourthButton);
+        no(fourthButton);
     } else if (target.id === 'fifth-button') {
-        chunChunHeeGamSo(fifthButton);
+        no(fifthButton);
     }
 }
 
 function catchMouseOut(event: MouseEvent): void {
     const target = event.target as HTMLElement;
     if (target.id === 'first-button') {
-        bbaLuGaeJungGa(firstButton);
+        yes(firstButton);
     } else if (target.id === 'second-button') {
-        bbaLuGaeJungGa(secondButton);
+        yes(secondButton);
     } else if (target.id === 'third-button') {
-        bbaLuGaeJungGa(thirdButton);
+        yes(thirdButton);
     } else if (target.id === 'fourth-button') {
-        bbaLuGaeJungGa(fourthButton);
+        yes(fourthButton);
     } else if (target.id === 'fifth-button') {
-        bbaLuGaeJungGa(fifthButton);
+        yes(fifthButton);
     }
 }
 
