@@ -455,8 +455,7 @@
 #project-container {
   display: flex;
   position: absolute;
-  border: 1px solid lime;
-  top: 2200px;
+  top: 2100px;
 
   height: 700px;
   width: 98vw;
@@ -472,10 +471,8 @@
   font-size: 30px;
   font-weight: 700;
   top: 0%;
-  left: 43vw;
+  left: 43.2vw;
   position: absolute;
-  justify-self: center;
-  align-self: center;
 }
 
 #project-container h2 {
@@ -486,6 +483,62 @@
   opacity: 64%;
   font-weight: 400;
   font-size: 24px;
+}
+
+#project-hellogsm,
+#project-gsmnetworking,
+#project-officialgsm {
+  display: flex;
+  top: 15%;
+  position: relative;
+  border: 1px solid red;
+  backdrop-filter: blur(30px);
+  border: 0.5px solid gray;
+  background-image: linear-gradient(
+    140deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  height: 420px;
+  width: 410px;
+  justify-content: space-around;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#project-hellogsm img {
+  width: 326px;
+  height: 200px;
+  position: absolute;
+  border-radius: 10px;
+  top: 30px;
+}
+
+#project-gsmnetworking {
+  top: 20%;
+  margin: 5%;
+}
+
+#project-gsmnetworking .project-title {
+  right: 13%;
+}
+
+.project-title {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 57%;
+  left: 47px;
+}
+
+.project-subtitle {
+  font-size: 15px;
+  color: rgb(167, 167, 167);
+  justify-content: center;
+  width: 77%;
+  position: relative;
+  top: 42vh;
+  left: 0px;
 }
 
 footer {

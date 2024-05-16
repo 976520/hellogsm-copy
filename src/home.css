@@ -201,12 +201,10 @@
   right: 200px;
   top: 1100px;
   position: absolute;
-
+  backdrop-filter: blur(30px);
   border: 1px solid white;
   background-color: rgb(255, 255, 255, 0.05);
   border-radius: 45px;
-
-  backdrop-filter: blur(30px);
 
   margin: 0 auto;
 }
