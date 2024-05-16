@@ -1,673 +1,712 @@
 #nav-dot {
-    left: 396px;
+  left: 396px;
 }
 
 @font-face {
-    font-family: "SBAggroB";
-    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
-        format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'SBAggroB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .dong-gu-ra-mi-16 {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    background-image: linear-gradient(
-        200deg,
-        rgb(123, 231, 255) 14%,
-        rgb(50, 144, 255) 30%,
-        rgba(0, 33, 65) 90%
-    );
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    200deg,
+    rgb(123, 231, 255) 14%,
+    rgb(50, 144, 255) 30%,
+    rgba(0, 33, 65) 90%
+  );
 
-    position: absolute;
+  position: absolute;
 
-    top: 450px;
-    left: -160px;
+  top: 450px;
+  left: -160px;
 }
 
 .dong-gu-ra-mi-17 {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-image: linear-gradient(
-        200deg,
-        #fafeb4 14%,
-        #f1fa77 25%,
-        #8cac49 90%
-    );
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    200deg,
+    #fafeb4 14%,
+    #f1fa77 25%,
+    #8cac49 90%
+  );
 
-    position: absolute;
+  position: absolute;
 
-    top: 390px;
-    left: 140px;
+  top: 390px;
+  left: 140px;
 }
 
 .dong-gu-ra-mi-18 {
-    width: 33px;
-    height: 33px;
-    border-radius: 50%;
-    background-image: linear-gradient(
-        220deg,
-        rgb(156, 221, 255) 10%,
-        rgb(72, 175, 228) 32%,
-        rgba(0, 51, 77, 0.51) 88%
-    );
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    220deg,
+    rgb(156, 221, 255) 10%,
+    rgb(72, 175, 228) 32%,
+    rgba(0, 51, 77, 0.51) 88%
+  );
 
-    position: absolute;
+  position: absolute;
 
-    top: 425px;
-    left: 220px;
+  top: 425px;
+  left: 220px;
 }
 
 .dong-gu-ra-mi-19 {
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    background-image: linear-gradient(
-        220deg,
-        rgb(156, 221, 255) 10%,
-        rgb(72, 175, 228) 32%,
-        rgba(0, 51, 77, 0.51) 88%
-    );
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    220deg,
+    rgb(156, 221, 255) 10%,
+    rgb(72, 175, 228) 32%,
+    rgba(0, 51, 77, 0.51) 88%
+  );
 
-    position: absolute;
+  position: absolute;
 
-    top: 455px;
-    right: -65px;
+  top: 455px;
+  right: -65px;
 }
 
 .dong-gu-ra-mi-20 {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background-image: linear-gradient(
-        200deg,
-        #fafeb4 14%,
-        #f1fa77 25%,
-        #8cac49 90%
-    );
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    200deg,
+    #fafeb4 14%,
+    #f1fa77 25%,
+    #8cac49 90%
+  );
 
-    position: absolute;
+  position: absolute;
 
-    top: 695px;
-    right: -5px;
+  top: 695px;
+  right: -5px;
 }
 
 .the-moment {
-    display: flex;
-    position: absolute;
+  display: flex;
+  position: absolute;
 
-    top: 410px;
+  top: 410px;
 
-    height: 50px;
-    width: 100vw;
+  height: 50px;
+  width: 100vw;
 
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .the-moment h1 {
-    font-size: 60px;
-    font-weight: 800;
+  font-size: 60px;
+  font-weight: 800;
 }
 
 .the-moment h2 {
-    color: white;
-    top: 50px;
-    position: absolute;
+  color: white;
+  top: 50px;
+  position: absolute;
 
-    opacity: 64%;
-    font-weight: 400;
-    font-size: 24px;
+  opacity: 64%;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 #the-moment-logo {
-    display: flex;
-    position: absolute;
+  display: flex;
+  position: absolute;
 
-    top: 250px;
+  top: 250px;
 
-    height: 130px;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+  height: 130px;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
 #white-box {
-    background-color: white;
-    border-radius: 20px;
-    justify-content: center;
-    box-shadow: 0px 0px 20px 0px rgb(255, 255, 255, 0.7);
-    align-items: center;
-    position: absolute;
-    height: 130px;
-    width: 130px;
-    z-index: 1;
+  background-color: white;
+  border-radius: 20px;
+  justify-content: center;
+  box-shadow: 0px 0px 20px 0px rgb(255, 255, 255, 0.7);
+  align-items: center;
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  z-index: 1;
 }
 
 #white-circle {
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0px 0px 15px 0px rgb(136, 130, 255);
-    left: 30px;
-    top: 30px;
-    position: absolute;
-    height: 70px;
-    width: 70px;
-    z-index: 1;
-    display: flex;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 0px rgb(136, 130, 255);
+  left: 30px;
+  top: 30px;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  z-index: 1;
+  display: flex;
 }
 
 #m {
-    font-size: 30px;
-    position: absolute;
-    font-weight: 1000;
-    color: rgb(136, 130, 255);
-    left: 12px;
-    top: 8px;
-    z-index: 7;
+  font-size: 30px;
+  position: absolute;
+  font-weight: 1000;
+  color: rgb(136, 130, 255);
+  left: 12px;
+  top: 8px;
+  z-index: 7;
 }
 
 #color-circle {
-    background-color: rgb(136, 130, 255);
-    z-index: 5;
-    height: 60px;
-    width: 60px;
+  background-color: rgb(136, 130, 255);
+  z-index: 5;
+  height: 60px;
+  width: 60px;
 
-    left: 35px;
-    top: 35px;
-    position: absolute;
-    border-radius: 50%;
+  left: 35px;
+  top: 35px;
+  position: absolute;
+  border-radius: 50%;
 }
 
 #small-white-circle {
-    background-color: white;
-    z-index: 19;
-    height: 50px;
-    width: 50px;
-    box-shadow: 0px 0px 15px 0px rgb(255, 255, 255, 0.4);
-    left: 5px;
-    top: 5px;
-    position: absolute;
-    border-radius: 50%;
+  background-color: white;
+  z-index: 19;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 0px 15px 0px rgb(255, 255, 255, 0.4);
+  left: 5px;
+  top: 5px;
+  position: absolute;
+  border-radius: 50%;
 }
 
 #small-white-circle2 {
-    background-color: rgb(255, 255, 255, 0.4);
-    z-index: 19;
-    left: -5px;
-    top: -5px;
-    position: absolute;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
+  background-color: rgb(255, 255, 255, 0.4);
+  z-index: 19;
+  left: -5px;
+  top: -5px;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
 }
 
 #small-white-box {
-    background-color: white;
-    border-radius: 20px;
-    z-index: 2;
-    position: absolute;
-    left: 62.5px;
-    height: 65px;
-    width: 65px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 2;
+  position: absolute;
+  left: 62.5px;
+  height: 65px;
+  width: 65px;
 }
 
 #white-something {
-    background-color: white;
-    z-index: 9;
-    position: absolute;
-    left: 22px;
-    top: 45px;
-    height: 15px;
-    width: 11px;
+  background-color: white;
+  z-index: 9;
+  position: absolute;
+  left: 22px;
+  top: 45px;
+  height: 15px;
+  width: 11px;
 }
 
 #white-something2 {
-    background-color: white;
-    z-index: 8;
-    position: absolute;
-    left: 0px;
-    top: 23px;
-    height: 11px;
-    width: 15px;
+  background-color: white;
+  z-index: 8;
+  position: absolute;
+  left: 0px;
+  top: 23px;
+  height: 11px;
+  width: 15px;
 }
 
 #m {
-    position: absolute;
-    left: 16px;
-    top: -2px;
-    z-index: 20;
-    font-weight: 800;
-    font-family: "SBAggroB";
-    font-size: 170%;
-    color: rgb(91, 82, 255);
+  position: absolute;
+  left: 16px;
+  top: -2px;
+  z-index: 20;
+  font-weight: 800;
+  font-family: 'SBAggroB';
+  font-size: 170%;
+  color: rgb(91, 82, 255);
 }
 
 #small-color-circle {
-    background-color: rgb(136, 130, 255);
-    z-index: 15;
-    height: 4.4px;
-    width: 4.4px;
-    border-radius: 50%;
-    left: 31.2px;
-    top: 54.8px;
-    position: absolute;
+  background-color: rgb(136, 130, 255);
+  z-index: 15;
+  height: 4.4px;
+  width: 4.4px;
+  border-radius: 50%;
+  left: 31.2px;
+  top: 54.8px;
+  position: absolute;
 }
 
 #small-color-circle2 {
-    background-color: rgb(136, 130, 255);
-    z-index: 15;
-    height: 4.4px;
-    width: 4.4px;
-    border-radius: 50%;
-    left: 20px;
-    top: 54px;
-    position: absolute;
+  background-color: rgb(136, 130, 255);
+  z-index: 15;
+  height: 4.4px;
+  width: 4.4px;
+  border-radius: 50%;
+  left: 20px;
+  top: 54px;
+  position: absolute;
 }
 
 #small-color-circle3 {
-    background-color: rgb(136, 130, 255);
-    z-index: 15;
-    height: 4.4px;
-    width: 4.4px;
-    border-radius: 50%;
-    left: 1px;
-    top: 31.5px;
-    position: absolute;
+  background-color: rgb(136, 130, 255);
+  z-index: 15;
+  height: 4.4px;
+  width: 4.4px;
+  border-radius: 50%;
+  left: 1px;
+  top: 31.5px;
+  position: absolute;
 }
 
 #small-color-circle4 {
-    background-color: rgb(136, 130, 255);
-    z-index: 15;
-    height: 4.4px;
-    width: 4.4px;
-    border-radius: 50%;
-    left: 1.5px;
-    top: 20.5px;
-    position: absolute;
+  background-color: rgb(136, 130, 255);
+  z-index: 15;
+  height: 4.4px;
+  width: 4.4px;
+  border-radius: 50%;
+  left: 1.5px;
+  top: 20.5px;
+  position: absolute;
 }
 
 .vision {
-    display: flex;
-    position: absolute;
+  display: flex;
+  position: absolute;
 
-    top: 900px;
+  top: 900px;
 
-    height: 50px;
-    width: 100vw;
+  height: 50px;
+  width: 100vw;
 
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .vision h1 {
-    font-size: 30px;
-    font-weight: 700;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .vision h2 {
-    color: white;
-    top: 30px;
-    position: absolute;
+  color: white;
+  top: 30px;
+  position: absolute;
 
-    opacity: 64%;
-    font-weight: 400;
-    font-size: 24px;
+  opacity: 64%;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .dong-gu-ra-mi-21 {
-    width: 33px;
-    height: 33px;
-    border-radius: 50%;
-    background-image: linear-gradient(
-        220deg,
-        rgb(156, 221, 255) 10%,
-        rgb(72, 175, 228) 32%,
-        rgba(0, 51, 77, 0.51) 88%
-    );
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    220deg,
+    rgb(156, 221, 255) 10%,
+    rgb(72, 175, 228) 32%,
+    rgba(0, 51, 77, 0.51) 88%
+  );
 
-    position: absolute;
-    z-index: 3;
-    top: 1550px;
-    left: 120px;
+  position: absolute;
+  z-index: 3;
+  top: 1550px;
+  left: 120px;
 }
 
 .dong-gu-ra-mi-22 {
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    background-image: linear-gradient(
-        220deg,
-        rgb(156, 221, 255) 10%,
-        rgb(72, 175, 228) 32%,
-        rgba(0, 51, 77, 0.51) 88%
-    );
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    220deg,
+    rgb(156, 221, 255) 10%,
+    rgb(72, 175, 228) 32%,
+    rgba(0, 51, 77, 0.51) 88%
+  );
 
-    position: absolute;
-    z-index: 3;
-    top: 1400px;
-    left: -65px;
+  position: absolute;
+  z-index: 3;
+  top: 1400px;
+  left: -65px;
 }
 
 .visions {
-    display: flex;
-    position: absolute;
+  display: flex;
+  position: absolute;
 
-    top: 1250px;
-    left: -50px;
+  top: 1250px;
+  left: -50px;
 
-    height: 500px;
-    width: 100vw;
+  height: 500px;
+  width: 100vw;
 
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 
-    font-size: 42px;
-    line-height: 70px;
-    font-weight: 700;
+  font-size: 42px;
+  line-height: 70px;
+  font-weight: 700;
 }
 
 .cover {
-    z-index: 2;
-    height: 500px;
-    width: 100vw;
+  z-index: 2;
+  height: 500px;
+  width: 100vw;
 
-    left: -50px;
-    top: 1250px;
-    position: absolute;
+  left: -50px;
+  top: 1250px;
+  position: absolute;
 }
 
 #cover-container {
-    display: flex;
-    top: 1150px;
-    left: -50px;
-    height: 700px;
-    width: 100vw;
+  display: flex;
+  top: 1150px;
+  left: -50px;
+  height: 700px;
+  width: 100vw;
 
-    position: relative;
+  position: relative;
 }
 
 #up {
-    background-image: linear-gradient(
-        360deg,
-        #ffffff00 0%,
-        #0f092137 10%,
-        #0f0921d8 30%,
-        #0f0921 90%
-    );
-    height: 180px;
-    top: 0px;
-    transition: height 0.3 ease;
-    z-index: -1;
+  background-image: linear-gradient(
+    360deg,
+    #ffffff00 0%,
+    #0f092137 10%,
+    #0f0921d8 30%,
+    #0f0921 90%
+  );
+  height: 180px;
+  top: 0px;
+  transition: height 0.3 ease;
+  z-index: -1;
 }
 
 #down {
-    background-image: linear-gradient(
-        180deg,
-        #ffffff00 0%,
-        #0f092137 10%,
-        #0f0921d8 30%,
-        #0f0921 90%
-    );
-    height: 180px;
+  background-image: linear-gradient(
+    180deg,
+    #ffffff00 0%,
+    #0f092137 10%,
+    #0f0921d8 30%,
+    #0f0921 90%
+  );
+  height: 180px;
 
-    top: 100px;
-    position: absolute;
-    transition: height 0.3 ease;
-    z-index: -1;
+  top: 100px;
+  position: absolute;
+  transition: height 0.3 ease;
+  z-index: -1;
 }
 
 #sa-young-ja {
-    top: -20px;
-    position: absolute;
-    z-index: -2;
+  top: -20px;
+  position: absolute;
+  z-index: -2;
 }
 
 #needs {
-    top: 150px;
-    left: 280px;
-    position: absolute;
-    z-index: -2;
+  top: 150px;
+  left: 280px;
+  position: absolute;
+  z-index: -2;
 }
 
 #jeo-hei {
-    top: 320px;
-    position: absolute;
-    z-index: -2;
+  top: 320px;
+  position: absolute;
+  z-index: -2;
 }
 
 #team-container {
-    display: flex;
-    position: absolute;
+  display: flex;
+  position: absolute;
+  top: 3000px;
 
-    top: 2200px;
+  height: 1000px;
+  width: 99vw;
 
-    height: 1000px;
-    width: 100vw;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
 
-    justify-content: center;
-    align-items: center;
+#project-container {
+  display: flex;
+  position: absolute;
+  border: 1px solid lime;
+  top: 2200px;
+
+  height: 700px;
+  width: 98vw;
+
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#project-container h1 {
+  color: white;
+  height: 600px;
+  font-size: 30px;
+  font-weight: 700;
+  top: 0%;
+  left: 43vw;
+  position: absolute;
+  justify-self: center;
+  align-self: center;
+}
+
+#project-container h2 {
+  color: white;
+  top: 6%;
+  position: absolute;
+
+  opacity: 64%;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 footer {
-    top: 3500px;
+  top: 4200px;
 }
 
-#team-won-so-gae {
-    color: white;
-    height: 600px;
-    font-size: 30px;
-    font-weight: 700;
-    top: 0%;
-    position: absolute;
+#team-container h1 {
+  color: white;
+  height: 600px;
+  font-size: 30px;
+  font-weight: 700;
+  top: 0%;
+  left: 46vw;
+  position: absolute;
+  justify-self: center;
+  align-self: center;
 }
 
 #first-line {
-    width: 98vw;
-    height: 400px;
-    top: 100px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  width: 98vw;
+  height: 400px;
+  top: 100px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 #second-line {
-    width: 99vw;
-    height: 370px;
-    top: 550px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  width: 99vw;
+  height: 370px;
+  top: 550px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .chapter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 300px;
-    position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  position: absolute;
 }
 
 #devops {
-    left: 80px;
+  left: 80px;
 }
 
 #design {
-    right: 80px;
+  right: 80px;
 }
 
 #frontend {
-    left: 225px;
+  left: 225px;
 }
 #backend {
-    right: 225px;
+  right: 225px;
 }
 
 .title {
-    top: 20px;
-    width: 400px;
-    height: 40px;
-    position: absolute;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    font-size: 24px;
-    display: flex;
+  top: 20px;
+  width: 400px;
+  height: 40px;
+  position: absolute;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
 }
 
 .subtitle {
-    font-size: 20px;
-    font-weight: 400;
-    color: white;
-    top: 70px;
-    width: 450px;
-    height: 70px;
-    position: absolute;
-    text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  top: 70px;
+  width: 450px;
+  height: 70px;
+  position: absolute;
+  text-align: center;
 
-    line-height: 32px;
+  line-height: 32px;
 }
 
 .profile-container {
-    top: 180px;
-    width: 400px;
-    height: 120px;
-    position: absolute;
-    display: flex;
-    justify-self: space-around;
+  top: 180px;
+  width: 400px;
+  height: 120px;
+  position: absolute;
+  display: flex;
+  justify-self: space-around;
 }
 
 .line {
-    background-color: white;
-    top: 65px;
-    height: 0.5px;
-    position: absolute;
+  background-color: white;
+  top: 65px;
+  height: 0.5px;
+  position: absolute;
 }
 
 #line5 {
-    width: 200px;
+  width: 200px;
 }
 
 #line6 {
-    width: 190px;
+  width: 190px;
 }
 
 #line7 {
-    width: 170px;
+  width: 170px;
 }
 
 #line8 {
-    width: 200px;
+  width: 200px;
 }
 
 #line9 {
-    width: 180px;
+  width: 180px;
 }
 
 #line10 {
-    top: 150px;
-    position: absolute;
-    width: 60px;
+  top: 150px;
+  position: absolute;
+  width: 60px;
 }
 
 #line12 {
-    top: 180px;
-    position: absolute;
-    width: 60px;
+  top: 180px;
+  position: absolute;
+  width: 60px;
 }
 
 .design-color {
-    color: #a4d5fb;
+  color: #a4d5fb;
 }
 
 .devops-color {
-    color: #eefd5c;
+  color: #eefd5c;
 }
 
 .operating-color {
-    color: #6ba1f7;
+  color: #6ba1f7;
 }
 
 .frontend-color {
-    color: #91e3cd;
+  color: #91e3cd;
 }
 
 .backend-color {
-    color: #9ce163;
+  color: #9ce163;
 }
 
 .name {
-    position: absolute;
-    font-size: 16px;
-    font-weight: 400;
-    top: 100px;
-    color: white;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  top: 100px;
+  color: white;
 }
 
 #devops .profile-container,
 #design .profile-container {
-    width: 270px;
-    display: flex;
-    justify-content: space-around;
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #operating .profile-container {
-    width: 370px;
-    display: flex;
-    justify-content: space-around;
+  width: 370px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #backend .profile-container {
-    top: 200px;
-    display: flex;
-    justify-content: space-around;
+  top: 200px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #frontend .profile-container {
-    width: 590px;
-    top: 200px;
-    display: flex;
-    justify-content: space-around;
+  width: 590px;
+  top: 200px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .profile-image {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
 
 .dong-gu-ra-mi-23 {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    background-image: linear-gradient(
-        200deg,
-        rgb(123, 231, 255) 14%,
-        rgb(50, 144, 255) 30%,
-        rgba(0, 33, 65) 90%
-    );
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    200deg,
+    rgb(123, 231, 255) 14%,
+    rgb(50, 144, 255) 30%,
+    rgba(0, 33, 65) 90%
+  );
 
-    position: absolute;
-    top: 1960px;
-    right: -220px;
+  position: absolute;
+  top: 1960px;
+  right: -220px;
 }
 
 #channel-talk-sticky {
-    height: 3800px;
+  height: 3800px;
 }
